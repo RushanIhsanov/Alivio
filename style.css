@@ -1,0 +1,387 @@
+body {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.container {
+  max-width: 1443px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ---------------------HEADER--------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+}
+.header__logo {
+  color: #01996d;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-list li {
+  padding-left: 70px;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  background-color: #01996d;
+  padding: 13px 50px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 35px;
+}
+
+/* ---------------------HERO--------------------- */
+
+.hero {
+  min-height: 895px;
+  height: 100vh;
+
+  background-color: bisque;
+  background-image: url(img/bg.png);
+  background-size: cover;
+}
+
+.hero__title {
+  max-width: 440px;
+  padding: 175px 0px 336px 0px;
+}
+
+.hero__title-up {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996d;
+}
+.hero__title_inner {
+  line-height: 31px;
+  color: #484848;
+  padding: 53px 0px 59px 0px;
+}
+
+.hero__button {
+  padding: 20px 50px;
+  margin-left: 0;
+}
+
+.works {
+  margin-top: 169px;
+}
+
+.works__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+.works__header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.works__release {
+  width: 584px;
+  height: 158px;
+  left: 275px;
+  top: 1185px;
+
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996d;
+}
+.works__offer {
+  width: 671px;
+  height: 269px;
+  left: 995px;
+  top: 1208px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+
+  margin-left: 136px;
+}
+/* ---------------------CARD--------------------- */
+.card__number {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  text-align: center;
+
+  color: rgba(1, 153, 109, 0.2);
+}
+.card__word {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #000000;
+
+  margin-left: -75px;
+}
+.card__outline {
+  width: 382px;
+  height: 150px;
+  left: 275px;
+  top: 1630px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  color: #424242;
+
+  margin-top: 56px;
+}
+.card__img {
+  margin-top: 66px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__word-m {
+  margin-left: -100px;
+}
+
+.card__word-m2 {
+  margin-left: -55px;
+}
+
+.card__position2 {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.card__position3 {
+  margin-top: 15px;
+}
+
+.img__position3 {
+  margin-top: -15px;
+}
+
+.img__position2 {
+  margin-top: -7px;
+}
+
+/* ---------------------story--------------------- */
+.story__container {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story {
+  background: #245852;
+}
+
+.story__title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #ffffff;
+}
+.story__subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 157%;
+  color: #ffffff;
+  padding-top: 33px;
+}
+
+.story__button {
+  padding: 20px 50px;
+  margin: 50px 0 0 0;
+}
+.video {
+  margin: 229px 0 177px 0;
+}
+
+/* ---------------------product--------------------- */
+
+.product__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 242px;
+}
+
+.product__content {
+  min-width: 638.46px;
+  min-height: 573.26px;
+  left: 335.68px;
+  top: 3629px;
+
+  background: rgba(1, 153, 109, 0.2);
+  border-radius: 18.1125px;
+}
+
+.product__content-photo {
+  padding-left: 97px;
+  position: relative;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.card__header {
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  color: #000000;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.card__header::after {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 1px;
+  background-color: #000000;
+  left: 92px;
+  top: 44px;
+}
+
+.content__card {
+  width: 296.14px;
+  height: 293.9px;
+  background: #ffffff;
+  border-radius: 3.72971px;
+  position: absolute;
+  left: -61px;
+  bottom: -76px;
+  box-shadow: 0 0 2px;
+}
+
+.card__avatar {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.card__name {
+  font-size: 11.9351px;
+  line-height: 157%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 157%;
+  padding-top: 20px;
+}
+
+.list {
+  list-style: inside;
+}
+
+.list__item {
+  font-size: 10.6195px;
+  line-height: 157%;
+  list-style-type: disc;
+  padding-top: 15px;
+}
+
+.product__text-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 157%;
+}
+
+.product__text-primary {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996d;
+  padding-top: 10px;
+}
+
+.product__text-subtitle {
+  font-size: 20px;
+  line-height: 31px;
+  padding-top: 20px;
+}
+
+.hero__button {
+  margin-top: 40px;
+}
+
+/* ---------------------FOOTER--------------------- */
+
+.footer {
+  min-height: 654px;
+  background-color: #245852;
+}
+
+.footer_container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.footer__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: #ffffff;
+  padding-top: 95px;
+}
+
+.footer__list-item {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-top: 60px;
+}
